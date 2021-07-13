@@ -528,6 +528,7 @@ Inicio de SECCION 3 / CATEGORIAS
   position: relative;
   top: 130px;
 }
+
 .body {
 	display: flex;
 	justify-content: center;
@@ -990,6 +991,8 @@ hr{
 .credito {
   align-items: center;
 }
+
+
 /*----------------------------------------------------------------
 MEDIAS QUERIES
 ----------------------------------------------------------------*/
@@ -1005,6 +1008,119 @@ MEDIAS QUERIES
   .header-area .main-nav:before {
     display: none;
   }
+
+  /*----------SECCION 4 // CARD CLIENTES ----------*/
+      .body-titulo {
+        font-size: 25px;
+        text-align: center;
+        position: relative;
+        top: 130px;
+        padding-bottom: 20px;
+      }
+
+      .body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: blue;
+      background-attachment: fixed;
+      width: 98%;
+      margin: 0 auto;
+      padding-top: 73px;
+      }
+
+      .container {
+        position: relative;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+      }
+      .container .card {
+        position: relative;
+        height: 350px;
+        background: white;
+        display: flex;
+        width: 70%;
+        margin: 30px 20px;
+        border-radius: 20px;
+        box-shadow: 0 5px 15px black;
+        padding-bottom: 20px;
+      }
+
+  /*--------------footer---------------------*/
+    .footer {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: space-between;
+      background-color: #3D3DE1;
+      margin: 0 auto;
+      padding: 40px 150px; 
+      border-radius: 20px 20px 0 0;
+      align-items: center;
+    }
+
+    .logo-footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 25px;
+    }
+
+    .footer__informacion {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      column-gap: 10px;
+      margin: 0 auto;
+      row-gap: 10px;
+      text-align: center;
+     }
+
+    .footer__informacion p {
+      font-family: 'Livvic';
+      text-align: center;
+    }
+
+    .footer__titulo {
+     text-transform: uppercase;
+     font-size: 15px;
+    }
+
+    .footer__info-rrss {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      column-gap: 10px;
+      margin: 40px 0 0 0;
+      row-gap: 10px;
+      text-align: center;
+    }
+
+    .iconos-rrss {
+      padding: 9px;
+      width: 50px;
+      transition: .6s;
+      height: 50px;
+    }
+    .container-rrss {
+      background-color: white;
+      border-radius: 50px;
+      height: 50px;
+    }
+
+    .logo-footer img {
+      width: 187px;
+    }
+
+    .iconos-rrss:hover {
+      padding: 9px;
+      width: 55px;
+      height: 55px;
+    }    
 }
 
 @media (max-width: 992px) {
@@ -1172,6 +1288,14 @@ MEDIAS QUERIES
       }
 
     /*----------SECCION 4 // CARD CLIENTES ----------*/
+      .body-titulo {
+        font-size: 25px;
+        text-align: center;
+        position: relative;
+        top: 130px;
+        padding-bottom: 20px;
+      }
+
       .body {
       display: flex;
       flex-direction: column;
@@ -1180,7 +1304,7 @@ MEDIAS QUERIES
       min-height: 100vh;
       background: blue;
       background-attachment: fixed;
-      width: 90%;
+      width: 98%%;
       margin: 0 auto;
       }
 
@@ -1263,42 +1387,47 @@ MEDIAS QUERIES
         text-align: center;
        }
 
-       .footer__titulo {
-         text-transform: uppercase;
-         font-size: 15px;
-        }
+      .footer__informacion p {
+        font-family: 'Livvic';
+        text-align: center;
+      }
 
-        .footer__info-rrss {
-          display: flex;
-          flex-direction: column;
-          color: white;
-          column-gap: 10px;
-          margin: 40px 0 0 0;
-          row-gap: 10px;
-          text-align: center;
-        }
+      .footer__titulo {
+       text-transform: uppercase;
+       font-size: 15px;
+      }
 
-        .iconos-rrss {
-          padding: 9px;
-          width: 50px;
-          transition: .6s;
-          height: 50px;
-        }
-        .container-rrss {
-          background-color: white;
-          border-radius: 50px;
-          height: 50px;
-        }
+      .footer__info-rrss {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        column-gap: 10px;
+        margin: 40px 0 0 0;
+        row-gap: 10px;
+        text-align: center;
+      }
 
-        .logo-footer img {
-          width: 187px;
-        }
+      .iconos-rrss {
+        padding: 9px;
+        width: 50px;
+        transition: .6s;
+        height: 50px;
+      }
+      .container-rrss {
+        background-color: white;
+        border-radius: 50px;
+        height: 50px;
+      }
 
-        .iconos-rrss:hover {
-          padding: 9px;
-          width: 55px;
-          height: 55px;
-        }
+      .logo-footer img {
+        width: 187px;
+      }
+
+      .iconos-rrss:hover {
+        padding: 9px;
+        width: 55px;
+        height: 55px;
+      }    
 }
 
 @media (min-width: 992px) {
