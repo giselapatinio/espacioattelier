@@ -248,10 +248,11 @@ header
 .css_gisela {
 	width: 90%;
 	position: fixed;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+
 }
 
 .row_gisela {
@@ -1009,65 +1010,6 @@ hr{
     display: none;
   }
 
-  
-  /* ------seccion NOVEDADES -------*/
-  .seccion-uno {
-    margin: 0 auto;
-    background-size: cover;
-    background-image: url(../archivos/imagenes/fondo-meme1.png);
-    background-repeat: no-repeat;
-    width: 98%;
-    height: 940px;
-  }
-  
-  .container-seccion {
-    display: grid;
-    width: 90%;
-    margin: 0 auto;
-    padding-top: 140px;
-    grid-template-columns: 100%;
-    font-family: 'leagueSpartanBold';
-    grid-template-areas: 
-      
-      "container-txt";
-  }
-  
-  .container-txt {
-    grid-area: 'container-txt';
-    display: flex;
-    flex-direction: column;
-    margin: 50px 60px 95px 49px;
-  }
-  
-  
-  .container-txt {
-    grid-area: container-txt;
-    display: flex;
-    justify-content: center;
-    row-gap: 23px;
-  }
-  
-  .container-txt h3 {
-    font-size: 34px;
-    font-weight: 300;
-    color: white;
-  }
-  
-  .container-txt h4 {
-    padding: 0 0px;
-    margin-top: 15px;
-  }   
-  
-  .container-txt h4 mark {
-    background-color: white;
-  }
-  
-  .container-txt p {
-    font-size: 25px;
-    color: white;
-    font-family: "Livvic";
-  }
-  
   /*----------SECCION 4 // CARD CLIENTES ----------*/
       .body-titulo {
         font-size: 25px;
@@ -1239,7 +1181,7 @@ hr{
       .header-area .main-nav .nav li a:hover {
         background: #eee !important;
       }
-      
+
     /*--------- SECCION UNO // NOVEDADES ----------*/
 
       .container-seccion {
